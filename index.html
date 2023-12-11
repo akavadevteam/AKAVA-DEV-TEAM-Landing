@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style_media.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>AKAVA Dev Team</title>
+</head>
+
+<body>
+    <header class="header light_bg d-flex flex-jc__center width_full">
+        <div class="header__container width_full d-flex flex-jc__center flex-ai__center">
+            <ul class="nav__items d-flex">
+                <li class="nav__item mr_20 c_pointer" data-link="teamMembers">Наша команда</li>
+                <li class="nav__item mr_20 c_pointer" data-link="skills">Стек технологий</li>
+                <li class="nav__item mr_20 c_pointer" data-link="projects">Проекты</li>
+            </ul>
+            <!-- <ul class="social__items">
+                <li class="social__item"></li>
+                <li class="social__item"></li>
+            </ul> -->
+        </div>
+    </header>
+    <section class="intro light_bg">
+        <div class="intro__container flex__cntr d-flex flex-column width_full flex-ai__center">
+            <div class="logo__elements d-flex flex-column flex-jc__center flex-ai__center width_full">
+                <img class="logo__element logo-down"  src="img/logo-down.png">
+                <img class="logo__element logo-up" src="img/logo-up.png">
+            </div>
+            <div class="logo-name__items">
+                <div class="main-name__items d-flex">
+                    <div class="main-name__item text__upper">a</div>
+                    <div class="main-name__item text__upper">k</div>
+                    <div class="main-name__item text__upper">a</div>
+                    <div class="main-name__item text__upper">v</div>
+                    <div class="main-name__item text__upper">a</div>
+                </div>
+                <div class="name_item text__upper text-al__center">dev team</div>
+            </div>
+        </div>
+    </section>
+    <section class="team section_bg d-flex flex-ai__center flex-jc__center p_center">
+        <div class="team__container d-flex flex-column flex-ai__center">
+            <h1 data-aos="fade-down" class="title mb_30">AKAVA DEV TEAM</h1>
+            <h5 data-aos="fade-down" class="mb_50">Команда Full-stack разработчиков</h5>
+            <a data-aos="fade-down" href="#teamMembers" class="nav__btn btn btn_paddings rounded_20 btn_bg btn_color ">Узнать больше</a>
+        </div>
+    </section>
+    <section class="team-members light_bg p_center d-flex flex-jc__center flex-ai__center" id="teamMembers">
+        <div class="team-members__container d-flex flex-column flex-ai__center width_full">
+            <div class="team-members__items mb_40 d-flex flex-jc__sp-btw flex_wrap width_full">
+                <div data-aos="flip-right" class="team-member__item d-flex flex-column flex-ai__center mb_50 ah">
+                    <img src="img/Sasha.png" alt="" class="mb_40">
+                    <p class="member__name">Александр Гатылюк</p>
+                </div>
+                <div data-aos="flip-right" class="team-member__item d-flex flex-column flex-ai__center mb_50 ka">
+                    <img src="img/Kseniya.png" alt="" class="mb_40">
+                    <p class="member__name">Ксения Авдеенко</p>
+                </div>
+                <div data-aos="flip-right" class="team-member__item d-flex flex-column flex-ai__center mb_50 at">
+                    <img src="img/Alesya.png" alt="" class="mb_40">
+                    <p class="member__name">Алеся Товкач</p>
+                </div>
+            </div>
+            <div class="team-members__items members__down width_full d-flex flex-jc__center flex_wrap">
+                <div data-aos="flip-right" class="team-member__item d-flex flex-column flex-ai__center mb_50 vp">
+                    <img src="img/Veronika.png" alt="" class="mb_40">
+                    <p class="member__name">Вероника Полубинская</p>
+                </div>
+                <div data-aos="flip-right" class="team-member__item d-flex flex-column flex-ai__center mb_50 an">
+                    <img src="img/Artyom.png" alt="" class="mb_40">
+                    <p class="member__name">Артём Назарчук</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team-info section_bg p_center">
+        <div class="team-info__container d-flex flex-jc__center">
+            <h5 class="text-al__center">Мы - команда разработчиков, создаем удобные для пользователей
+                программные приложения. Наша команда обладает пониманием принципов проектирования ПО и гибкой
+                разработки.
+            </h5>
+        </div>
+    </section>
+    <section class="skills white_bg p_center d-flex flex-ai__center flex-jc__center" id="skills">
+        <div class="skills__container d-flex flex-ai__center flex-jc__center width_full">
+            <div class="skills__items d-flex flex-column width_full">
+                <div class="skills__item d-flex width_full flex-column flex-ai__center">
+                    <h5 data-aos="fade-down" class="skills__headings mb_50">Языки и связанные технологии</h5>
+                    <div class="skills__icons flex_wrap mb_50 d-flex width_full flex-jc__sp-btw flex-ai__center">
+                        <img data-aos="fade-down" src="img/python.png" class="skills__icon mb_20">
+                        <img data-aos="fade-down" src="img/dj.png" class="skills__icon mb_20">
+                        <img data-aos="fade-down" src="img/drf.png" class="skills__icon mb_20">
+                        <img data-aos="fade-down" src="img/fastapi.png" class="skills__icon mb_20" height="50">
+                        <img data-aos="fade-down" src="img/flask.png" class="skills__icon mb_20">
+                        <img data-aos="fade-down" src="img/js.png" class="skills__icon mb_20">
+                    </div>
+                </div>
+                <div class="skills__item d-flex width_full flex-column flex-ai__center">
+                    <h5 data-aos="fade-down" class="skills__headings mb_50">Основные технологии на стороне клиента</h5>
+                    <div class="skills__icons flex_wrap mb_50 d-flex width_full flex-jc__sp-arnd flex-ai__center">
+                        <img data-aos="fade-down" src="img/html.png" class="skills__icon mb_20">
+                        <img data-aos="fade-down" src="img/css.png" class="skills__icon mb_20">
+                        <img data-aos="fade-down" src="img/bootstrap.png" class="skills__icon mb_20">
+                        <img data-aos="fade-down" src="img/react.png" class="skills__icon mb_20">
+                    </div>
+                </div>
+                <div class="skills__item d-flex width_full flex-column flex-ai__center">
+                    <h5 data-aos="fade-down" class="skills__headings mb_50">Инструменты и приложения разработчика</h5>
+                    <div class="skills__icons flex_wrap mb_50 d-flex width_full flex-jc__sp-btw flex-ai__center">
+                        <img src="img/vscode.png" class="skills__icon mb_20">
+                        <img src="img/pycharm.png" class="skills__icon mb_20">
+                        <img src="img/figma.png" class="skills__icon mb_20">
+                        <img src="img/git.png" class="skills__icon mb_20">
+                        <img src="img/docker.png" class="skills__icon mb_20">
+                    </div>
+                </div>
+                <div class="skills__item d-flex width_full flex-column flex-ai__center">
+                    <h5 data-aos="fade-down" class="skills__headings mb_50">Базы данных</h5>
+                    <div class="skills__icons flex_wrap mb_50 d-flex width_full flex-jc__sp-arnd flex-ai__center">
+                        <img data-aos="fade-down" src="img/postgres.png" class="skills__icon mb_20">
+                        <img data-aos="fade-down" src="img/sqlite.png" class="skills__icon mb_20">
+                        <img data-aos="fade-down" src="img/redis.png" class="skills__icon mb_20">
+                        <img data-aos="fade-down" src="img/mongo.png" class="skills__icon mb_20">
+                        <img data-aos="fade-down" src="img/firebase.png" class="skills__icon mb_20">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="we-do light_bg p_center d-flex flex-ai__center flex-jc__center">
+        <div class="we-do__container d-flex width_full flex-column flex-ai__center">
+            <h4 class="we-do__heading mb_50">Мы делаем</h4>
+            <div class="we-do__items width_full d-flex flex-jc__sp-btw">
+                <div data-aos="fade-right" class="we-do__item mb_20 d-flex flex-column flex-ai__center">
+                    <img src="img/adaptive.png" class="we-do__icon mb_20">
+                    <p class="we-do-item__heading text-al__center">Адаптивная и кроссбраузерная верстка лендинг-страниц
+                        и сайтов любой сложности</p>
+                </div>
+                <div data-aos="fade-right" class="we-do__item mb_20 d-flex flex-column flex-ai__center">
+                    <img src="img/backend.png" class="we-do__icon mb_20">
+                    <p class="we-do-item__heading text-al__center">Бэкенд-разработка</p>
+                </div>
+                <div data-aos="fade-right" class="we-do__item mb_20 d-flex flex-column flex-ai__center">
+                    <img src="img/front.png" class="we-do__icon mb_20">
+                    <p class="we-do-item__heading text-al__center">Фронтенд -разработка</p>
+                </div>
+                <div data-aos="fade-right" class="we-do__item mb_20 d-flex flex-column flex-ai__center">
+                    <img src="img/recoding.png" class="we-do__icon mb_20">
+                    <p class="we-do-item__heading text-al__center">Исправление и доработка существующего кода и вёрстки
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects section_bg p_center" id="projects">
+        <div class="projects__container d-flex width_full flex-column flex-ai__center">
+            <h3 class="projects__heading mb_50">Наши проекты</h3>
+            <div class="projects__items width_full d-flex flex-jc__sp-btw">
+                <div class="projects__item d-flex flex-column flex-ai__center mb_20 width_full">
+                    <img src="img/project-kvz.png" alt="" width="300" class="project__img mb_30">
+                    <p class="project__name">KvzBY - конструктор квизов </p>
+                    <a href="https://kvz.by/" target="_blank" class="view__btn btn">Посмотреть</a>
+                </div>
+                <div class="projects__item d-flex flex-column flex-ai__center mb_20 width_full">
+                    <img src="img/project-burger.png" alt="" width="300"  class="project__img mb_30">
+                    <p class="project__name">Лендинг Burger House</p>
+                    <a href="https://kseniyaavdeenko.github.io/burgers/" target="_blank"
+                        class="view__btn btn">Посмотреть</a>
+                </div>
+                <div class="projects__item d-flex flex-column flex-ai__center mb_20 width_full">
+                    <img src="img/project_interior.png" alt="" width="300"  class="project__img mb_30">
+                    <p class="project__name">Лендинг Interior</p>
+                    <a href="https://artnazarchuk.github.io/Fishnet_Chair/" target="_blank"
+                        class="view__btn btn">Посмотреть</a>
+                </div>
+                <div class="projects__item d-flex flex-column flex-ai__center mb_20 width_full">
+                    <img src="img/project-news.png" alt="" width="300" class="project__img mb_30">
+                    <p class="project__name">Лендинг Новостное агенство</p>
+                    <a href="https://kseniyaavdeenko.github.io/Landing-News-grid-layout-/" target="_blank" class="view__btn btn">Посмотреть</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer footer__cntr .light_bg d-flex flex-ai__center flex-column">
+        <div class="footer__container d-flex flex-jc__sp-btw width_full">
+            <ul class="footer-nav__items">
+                <li class="footer-nav__item c_pointer" data-link="teamMembers">Наша команда</li>
+                <li class="footer-nav__item c_pointer" data-link="skills">Стек технологий</li>
+                <li class="footer-nav__item c_pointer" data-link="projects">Проекты</li>
+            </ul>
+            <div class="contacts">
+                <p>Контакты</p>
+                <a class="contacts__item d-flex flex-ai__center mb_20" href="mailto:akavadevteam@mail.ru"
+                    target="_blank">
+                    <img src="img/mail.png" class="contact__icon mr_10">
+                    <p class="contact__link">akavadevteam@mail.ru</p>
+                </a>
+                <a class="contacts__item d-flex flex-ai__center mb_20" href="https://t.me/AKAVA_DEV_TEAM" target="_blank">
+                    <img src="img/tg.png" class="contact__icon mr_10">
+                    <p class="contact__link">@AKAVA_DEV_TEAM</p>
+                </a>
+            </div>
+        </div>
+        <div class="footer-down__container d-flex flex-jc__center width_full">
+            AKAVA Dev Team © 2023
+        </div>
+    </footer>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

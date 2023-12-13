@@ -229,15 +229,15 @@ a {
 
 .logo-up {
     position: absolute;
-    left: 46.6%;
-    top: 60px;
+    /* left: 46.6%;
+    top: 60px; */
     z-index: 2;
 }
 
 .logo-down {
     position: absolute;
-    left: 36%;
-    top: 50px;
+    /* left: 36%;
+    top: 50px; */
     z-index: 3;
 }
 
@@ -284,7 +284,7 @@ a {
     color: var(--accent-color);
 }
 .project__img {
-    width: 100% !important;
+    width: 90% !important;
 }
 
 .projects__items,
@@ -344,7 +344,7 @@ div.sim-slider-dots {
     height: auto;
     position: absolute;
     left: 0;
-    bottom: -70%;
+    bottom: -60%;
     z-index: 3;
     text-align: center;
 }
@@ -358,4 +358,7 @@ span.sim-dot {
     background-color: #BBB;
     border-radius: 5px;
     cursor: pointer;
+}
+.nav__item {
+    font-size: 16px;
 }

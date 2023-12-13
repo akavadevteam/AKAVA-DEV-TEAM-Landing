@@ -18,6 +18,7 @@ $(".name_item").hide();
 $(document).css('overflowY', 'hidden')
 const screenWidth = window.screen.width
 $(document).ready(function () {
+	console.log(screenWidth)
 	$('.main-name__items').hide().delay(5500).fadeIn(2500);
 	$(".name_item").hide().delay(6000).fadeIn(2500);
 	$('.header').hide().delay(7000).fadeIn(2500)

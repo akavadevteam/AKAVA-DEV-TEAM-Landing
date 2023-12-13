@@ -42,7 +42,12 @@ $(document).ready(function () {
 		$('.logo-up').delay(500).animate({ "left": "50.1%" }, 2000)
 		$('.logo-down').animate({ 'top': '131px' }, 2000);
 		$('.logo-up').animate({ 'top': '10px' }, 2000);
-	} else if (screenWidth >= 1440) {
+	}else if (screenWidth >= 1536) {
+		$('.logo-down').delay(500).animate({ "left": "31.9%" }, 2000);
+		$('.logo-up').delay(500).animate({ "left": "50.1%" }, 2000)
+		$('.logo-down').animate({ 'top': '131px' }, 2000);
+		$('.logo-up').animate({ 'top': '10px' }, 2000);
+	}else if (screenWidth >= 1440) {
 		$('.logo-down').delay(500).animate({ "left": "30.7%" }, 2000);
 		$('.logo-up').delay(500).animate({ "left": "50.1%" }, 2000)
 		$('.logo-down').animate({ 'top': '131px' }, 2000);

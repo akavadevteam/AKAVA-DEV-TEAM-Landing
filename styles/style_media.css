@@ -40,7 +40,7 @@
 
 @media all and (max-width: 1540px) {
     div.sim-slider-dots {
-        bottom: -40%;
+        bottom: 0;
     }
 
     .projects {
@@ -50,7 +50,16 @@
     .vp {
         margin-right: 25%;
     }
+    .logo-up {
+        left: 44%;
+    }
 
+    .logo-down {
+        left: 34%;
+    }
+    .projects__items {
+        min-height: 700px;
+    }
 }
 
 @media all and (max-width: 1440px) {

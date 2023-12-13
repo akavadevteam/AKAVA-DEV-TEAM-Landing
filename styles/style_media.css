@@ -1,0 +1,591 @@
+@media all and (max-width: 1920px) {
+    .logo-up {
+        left: 45.2%;
+        top: 60px;
+    }
+
+    .logo-down {
+        left: 37.5%;
+        top: 50px;
+    }
+}
+
+@media all and (max-width: 1680px) {
+    div.sim-slider-dots {
+        bottom: -50%;
+    }
+
+    .logo-up {
+        left: 44%;
+    }
+
+    .logo-down {
+        left: 35%;
+    }
+}
+
+@media all and (max-width: 1600px) {
+    div.sim-slider-dots {
+        bottom: -45%;
+    }
+
+    .projects {
+        min-height: 110vh;
+    }
+
+    .logo-down {
+        left: 34.6%;
+    }
+}
+
+@media all and (max-width: 1540px) {
+    div.sim-slider-dots {
+        bottom: -40%;
+    }
+
+    .projects {
+        min-height: 105vh;
+    }
+
+    .vp {
+        margin-right: 25%;
+    }
+
+}
+
+@media all and (max-width: 1440px) {
+    div.sim-slider-dots {
+        bottom: -35%;
+    }
+
+    .projects {
+        min-height: 100vh;
+    }
+
+    div.sim-slider-arrow-left,
+    div.sim-slider-arrow-right {
+        top: 50%;
+    }
+
+    .vp {
+        margin-right: 20%;
+    }
+
+    .logo-up {
+        left: 46.4%;
+    }
+
+    .logo-down {
+        left: 36%;
+    }
+}
+
+@media all and (max-width: 1380px) {
+    div.sim-slider-dots {
+        bottom: -25%;
+    }
+
+    div.sim-slider-arrow-left,
+    div.sim-slider-arrow-right {
+        top: 40%;
+    }
+
+    .projects {
+        min-height: 95vh;
+    }
+
+    .logo-up {
+        left: 45.8%;
+    }
+
+    .logo-down {
+        left: 35%;
+    }
+}
+
+@media all and (max-width: 1280px) {
+    div.sim-slider-dots {
+        bottom: -15%;
+    }
+
+    .vp {
+        margin-right: 15%;
+    }
+
+    .logo-down {
+        left: 33%;
+    }
+
+    .logo-up {
+        left: 44.8%;
+    }
+}
+
+@media all and (max-width: 1080px) {
+    .vp {
+        margin-right: 3%;
+    }
+
+    .team-member__item>img {
+        width: 90%;
+    }
+
+    .projects {
+        min-height: 90vh;
+    }
+
+    div.sim-slider-arrow-left,
+    div.sim-slider-arrow-right {
+        top: 30%;
+    }
+
+    div.sim-slider-dots {
+        bottom: -5%;
+    }
+
+    .logo-down {
+        left: 30%;
+    }
+
+    .logo-up {
+        left: 44%;
+    }
+}
+
+@media all and (max-width: 1024px) {
+
+    .main-name__item,
+    .title {
+        font-size: 100px !important;
+    }
+
+    .vp {
+        margin-right: 2%;
+    }
+
+    .team-member__item>img {
+        width: 80%;
+    }
+
+    .we-do__items,
+    .skills__icons {
+        flex-direction: column;
+    }
+
+    .skills__icons>img {
+        width: 40%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .we-do-item__heading,
+    .skills__headings {
+        font-size: 45px;
+    }
+
+    .we-do__icon {
+        width: 80%;
+    }
+
+    .we-do__item {
+        margin-bottom: 50px;
+    }
+
+    .we-do__heading {
+        font-size: 64px;
+    }
+
+    div.sim-slider-arrow-left,
+    div.sim-slider-arrow-right {
+        top: 30%;
+    }
+
+    div.sim-slider-dots {
+        bottom: 0;
+    }
+
+    .projects {
+        min-height: 85vh;
+    }
+
+    .logo-down {
+        left: 28%;
+    }
+
+    .logo-up {
+        left: 42.8%;
+    }
+}
+@media all and (max-width: 821px) {
+    
+    .vp {
+        margin-right: 0;
+    }
+
+    .logo-down {
+        left: 17%;
+    }
+
+    .logo-up {
+        left: 36.7%;
+    }
+}
+@media all and (max-width: 770px) {
+    
+    .vp {
+        margin-right: 0;
+    }
+
+    .logo-down {
+        left: 17%;
+    }
+
+    .logo-up {
+        left: 36.7%;
+    }
+}
+@media all and (max-width: 720px) {
+    .team-members__items {
+        flex-direction: column;
+    }
+
+    .vp {
+        margin-right: 0;
+    }
+
+    .team-member__item>img {
+        width: 100%;
+    }
+
+    .we-do-item__heading {
+        font-size: 32px;
+    }
+
+    .projects__items {
+        min-height: 400px;
+    }
+
+    .projects {
+        min-height: fit-content;
+    }
+
+    div.sim-slider-arrow-left,
+    div.sim-slider-arrow-right {
+        top: 20%;
+    }
+
+    div.sim-slider-dots {
+        bottom: 5%;
+    }
+
+    .logo-down {
+        left: 17%;
+    }
+
+    .logo-up {
+        left: 38.7%;
+    }
+}
+
+@media all and (max-width: 540px) {
+
+    .main-name__item,
+    .title {
+        font-size: 90px !important;
+    }
+
+    .member__name {
+        font-size: 22px;
+    }
+
+    .p_center {
+        padding: 100px 5%;
+    }
+
+    .projects__items {
+        min-height: 350px;
+    }
+
+    .project__img {
+        width: 95% !important;
+    }
+
+    div.sim-slider-arrow-left {
+        left: -10px;
+    }
+
+    div.sim-slider-arrow-left {
+        left: -10px;
+        background: url(../img/arrow_left.png) no-repeat;
+    }
+
+    div.sim-slider-arrow-right {
+        right: -10px;
+    }
+
+    .logo__element {
+        width: 250px;
+        height: auto;
+    }
+
+    .logo-down {
+        top: 100px;
+        left: 15%;
+    }
+
+    .logo-up {
+        top: 110px;
+        left: 39%;
+    }
+
+}
+
+@media all and (max-width: 480px) {
+    .team-member__item>img {
+        width: 90%;
+    }
+
+    .projects__items {
+        min-height: 300px;
+    }
+
+    div.sim-slider-dots {
+        bottom: 0%;
+    }
+
+    .projects__heading {
+        font-size: 45px;
+    }
+
+    div.sim-slider-arrow-left,
+    div.sim-slider-arrow-right {
+        top: 25%;
+    }
+
+    .logo__element {
+        width: 200px;
+        height: auto;
+    }
+
+    .logo-down {
+        left: 13%;
+        top: 150px;
+    }
+
+    .logo-up {
+        left: 38%;
+        top: 156px;
+    }
+}
+
+@media all and (max-width: 431px) {
+
+    .main-name__item,
+    .title {
+        font-size: 64px !important;
+    }
+
+    .we-do-item__heading {
+        font-size: 22px;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .contacts,
+    .footer-nav__items {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .footer-nav__item,
+    .contacts>p {
+        text-align: center;
+    }
+
+    .logo__element {
+        width: 200px;
+        height: auto;
+    }
+
+    .logo-down {
+        left: 13%;
+        top: 150px;
+    }
+
+    .logo-up {
+        top: 157px;
+        left: 41%;
+    }
+}
+
+@media all and (max-width: 415px) {
+    .logo-down {
+        left: 13%;
+        top: 150px;
+    }
+
+    .logo-up {
+        top: 156px;
+        left: 39%;
+    }
+}
+@media all and (max-width: 412px) {
+    .logo-down {
+        left: 13%;
+        top: 150px;
+    }
+
+    .logo-up {
+        top: 156px;
+        left: 39%;
+    }
+    .nav__item {
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 391px) {
+    .we-do-item__heading {
+        font-size: 16px;
+    }
+
+    div.sim-slider-arrow-left,
+    div.sim-slider-arrow-right {
+        top: 20%;
+    }
+
+    div.sim-slider-dots {
+        bottom: 5%;
+    }
+
+    .logo__element {
+        width: 150px;
+        height: auto;
+    }
+
+    .logo-down {
+        left: 21%;
+        top: 180px;
+    }
+
+    .logo-up {
+        top: 185px;
+        left: 42%;
+    }
+
+    .nav__item {
+        font-size: 12px;
+    }
+}
+@media all and (max-width: 380px) {
+    .we-do-item__heading {
+        font-size: 16px;
+    }
+
+    div.sim-slider-arrow-left,
+    div.sim-slider-arrow-right {
+        top: 20%;
+    }
+
+    div.sim-slider-dots {
+        bottom: 5%;
+    }
+
+    .logo__element {
+        width: 150px;
+        height: auto;
+    }
+
+    .logo-down {
+        left: 21%;
+        top: 180px;
+    }
+
+    .logo-up {
+        top: 185px;
+        left: 42%;
+    }
+
+    .nav__item {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 376px) {
+    .logo-down {
+        left: 21%;
+        top: 180px;
+    }
+
+    .logo-up {
+        top: 185px;
+        left: 44%;
+    }
+
+    .nav__item {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .logo-down {
+        left: 21%;
+        top: 180px;
+    }
+
+    .logo-up {
+        top: 185px;
+        left: 44%;
+    }
+
+    .nav__item {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 320px) {
+
+    .main-name__item,
+    .title {
+        font-size: 45px !important;
+    }
+
+    .name_item,
+    h5 {
+        font-size: 22px;
+    }
+
+    div.sim-slider-arrow-left,
+    div.sim-slider-arrow-right {
+        top: 15%;
+    }
+
+    .projects__heading {
+        font-size: 32px;
+    }
+
+    div.sim-slider-dots {
+        bottom: 10%;
+    }
+
+    .contacts,
+    .footer-nav__items {
+        font-size: 16px;
+    }
+
+    .logo-down {
+        left: 11%;
+    }
+
+    .logo-up {
+        left: 37%;
+    }
+
+    .nav__item {
+        font-size: 11px;
+    }
+}
